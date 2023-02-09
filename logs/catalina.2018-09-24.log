@@ -1,0 +1,108 @@
+24 Sep, 2018 7:04:30 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jre1.7.0\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Java\jdk1.8.0_144\bin;
+24 Sep, 2018 7:04:31 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+24 Sep, 2018 7:04:31 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+24 Sep, 2018 7:04:31 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1254 ms
+24 Sep, 2018 7:04:31 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+24 Sep, 2018 7:04:31 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+24 Sep, 2018 7:04:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\docs
+24 Sep, 2018 7:04:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\examples
+24 Sep, 2018 7:04:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\host-manager
+24 Sep, 2018 7:04:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\manager
+24 Sep, 2018 7:04:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\myapp
+24 Sep, 2018 7:04:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\myprj
+24 Sep, 2018 7:04:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\prj
+24 Sep, 2018 7:04:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\ROOT
+24 Sep, 2018 7:04:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\welcome
+24 Sep, 2018 7:04:33 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+24 Sep, 2018 7:04:33 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+24 Sep, 2018 7:04:33 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2255 ms
+24 Sep, 2018 7:48:55 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jre1.7.0\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Java\jdk1.8.0_144\bin;
+24 Sep, 2018 7:48:55 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+24 Sep, 2018 7:48:55 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+24 Sep, 2018 7:48:55 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 476 ms
+24 Sep, 2018 7:48:55 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+24 Sep, 2018 7:48:55 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+24 Sep, 2018 7:48:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\docs
+24 Sep, 2018 7:48:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\examples
+24 Sep, 2018 7:48:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\host-manager
+24 Sep, 2018 7:48:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\manager
+24 Sep, 2018 7:48:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\myapp
+24 Sep, 2018 7:48:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\myprj
+24 Sep, 2018 7:48:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\prj
+24 Sep, 2018 7:48:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\ROOT
+24 Sep, 2018 7:48:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\welcome
+24 Sep, 2018 7:48:56 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+24 Sep, 2018 7:48:56 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+24 Sep, 2018 7:48:56 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1300 ms
+24 Sep, 2018 7:53:53 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jre1.7.0\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Java\jdk1.8.0_144\bin;
+24 Sep, 2018 7:53:53 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+24 Sep, 2018 7:53:53 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+24 Sep, 2018 7:53:53 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 475 ms
+24 Sep, 2018 7:53:53 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+24 Sep, 2018 7:53:53 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+24 Sep, 2018 7:53:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\docs
+24 Sep, 2018 7:53:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\examples
+24 Sep, 2018 7:53:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\host-manager
+24 Sep, 2018 7:53:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\manager
+24 Sep, 2018 7:53:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\myapp
+24 Sep, 2018 7:53:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\myprj
+24 Sep, 2018 7:53:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\prj
+24 Sep, 2018 7:53:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\ROOT
+24 Sep, 2018 7:53:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\welcome
+24 Sep, 2018 7:53:54 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+24 Sep, 2018 7:53:54 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+24 Sep, 2018 7:53:54 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1299 ms

@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [24/Sep/2018:19:05:53 +0530] "GET / HTTP/1.1" 200 11444
+0:0:0:0:0:0:0:1 - - [24/Sep/2018:19:05:58 +0530] "GET /examples/ HTTP/1.1" 200 1209
+0:0:0:0:0:0:0:1 - - [24/Sep/2018:19:06:00 +0530] "GET /examples/servlets HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [24/Sep/2018:19:06:00 +0530] "GET /examples/servlets/ HTTP/1.1" 200 5343
+0:0:0:0:0:0:0:1 - - [24/Sep/2018:19:06:00 +0530] "GET /examples/servlets/images/code.gif HTTP/1.1" 200 292
+0:0:0:0:0:0:0:1 - - [24/Sep/2018:19:06:00 +0530] "GET /examples/servlets/images/execute.gif HTTP/1.1" 200 1242
+0:0:0:0:0:0:0:1 - - [24/Sep/2018:19:06:00 +0530] "GET /examples/servlets/images/return.gif HTTP/1.1" 200 1231
+0:0:0:0:0:0:0:1 - - [24/Sep/2018:19:06:02 +0530] "GET /examples/servlets/servlet/HelloWorldExample HTTP/1.1" 200 359
+0:0:0:0:0:0:0:1 - - [24/Sep/2018:19:06:47 +0530] "GET /welcome/Wel HTTP/1.1" 404 973

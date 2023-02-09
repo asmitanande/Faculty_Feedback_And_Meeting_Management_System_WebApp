@@ -1,0 +1,400 @@
+23 Sep, 2018 8:22:30 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jre1.7.0\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Java\jdk1.7.0\bin;
+23 Sep, 2018 8:22:32 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+23 Sep, 2018 8:22:32 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+23 Sep, 2018 8:22:32 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1980 ms
+23 Sep, 2018 8:22:32 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+23 Sep, 2018 8:22:32 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+23 Sep, 2018 8:22:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\docs
+23 Sep, 2018 8:22:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\examples
+23 Sep, 2018 8:22:33 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\host-manager
+23 Sep, 2018 8:22:33 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\manager
+23 Sep, 2018 8:22:33 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\myapp
+23 Sep, 2018 8:22:33 AM org.apache.tomcat.util.digester.Digester fatalError
+SEVERE: Parse Fatal Error at line 5 column 3: The element type "servlet-name" must be terminated by the matching end-tag "</servlet-name>".
+org.xml.sax.SAXParseException: The element type "servlet-name" must be terminated by the matching end-tag "</servlet-name>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1537)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1879)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1259)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:369)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5179)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1114)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1673)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+23 Sep, 2018 8:22:33 AM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Parse error in application web.xml file at jndi:/localhost/myapp/WEB-INF/web.xml
+org.xml.sax.SAXParseException: The element type "servlet-name" must be terminated by the matching end-tag "</servlet-name>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1537)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1879)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1259)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:369)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5179)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1114)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1673)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+23 Sep, 2018 8:22:33 AM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Occurred at line 5 column 3
+23 Sep, 2018 8:22:33 AM org.apache.catalina.startup.ContextConfig configureStart
+SEVERE: Marking this application unavailable due to previous error(s)
+23 Sep, 2018 8:22:33 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+23 Sep, 2018 8:22:33 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/myapp] startup failed due to previous errors
+23 Sep, 2018 8:22:33 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\myprj
+23 Sep, 2018 8:22:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\prj
+23 Sep, 2018 8:22:35 AM org.apache.tomcat.util.digester.Digester fatalError
+SEVERE: Parse Fatal Error at line 10 column 10: XML document structures must start and end within the same entity.
+org.xml.sax.SAXParseException: XML document structures must start and end within the same entity.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.endEntity(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.endEntity(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.endEntity(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.load(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.peekChar(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1537)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1879)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1259)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:369)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5179)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1114)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1673)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+23 Sep, 2018 8:22:35 AM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Parse error in application web.xml file at jndi:/localhost/prj/WEB-INF/web.xml
+org.xml.sax.SAXParseException: XML document structures must start and end within the same entity.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.endEntity(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.endEntity(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.endEntity(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.load(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.peekChar(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1537)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1879)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1259)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:369)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5179)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1114)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1673)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+23 Sep, 2018 8:22:35 AM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Occurred at line 10 column 10
+23 Sep, 2018 8:22:35 AM org.apache.catalina.startup.ContextConfig configureStart
+SEVERE: Marking this application unavailable due to previous error(s)
+23 Sep, 2018 8:22:35 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+23 Sep, 2018 8:22:35 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/prj] startup failed due to previous errors
+23 Sep, 2018 8:22:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\ROOT
+23 Sep, 2018 8:22:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\welcome
+23 Sep, 2018 8:22:35 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+23 Sep, 2018 8:22:35 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+23 Sep, 2018 8:22:35 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3481 ms
+23 Sep, 2018 8:27:01 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+23 Sep, 2018 8:29:32 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jre1.7.0\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Java\jdk1.7.0\bin;
+23 Sep, 2018 8:29:33 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+23 Sep, 2018 8:29:33 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+23 Sep, 2018 8:29:33 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 462 ms
+23 Sep, 2018 8:29:33 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+23 Sep, 2018 8:29:33 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+23 Sep, 2018 8:29:33 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\docs
+23 Sep, 2018 8:29:33 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\examples
+23 Sep, 2018 8:29:33 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\host-manager
+23 Sep, 2018 8:29:33 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\manager
+23 Sep, 2018 8:29:33 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\myapp
+23 Sep, 2018 8:29:33 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\myprj
+23 Sep, 2018 8:29:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\prj
+23 Sep, 2018 8:29:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\ROOT
+23 Sep, 2018 8:29:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\welcome
+23 Sep, 2018 8:29:34 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+23 Sep, 2018 8:29:34 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+23 Sep, 2018 8:29:34 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1278 ms
+23 Sep, 2018 8:31:21 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+23 Sep, 2018 8:31:21 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+23 Sep, 2018 8:31:22 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+23 Sep, 2018 8:31:22 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+23 Sep, 2018 8:31:22 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+23 Sep, 2018 8:31:22 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+23 Sep, 2018 8:31:22 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+23 Sep, 2018 8:31:22 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+23 Sep, 2018 11:18:15 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jre1.7.0\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Java\jdk1.7.0\bin;
+23 Sep, 2018 11:18:15 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+23 Sep, 2018 11:18:15 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+23 Sep, 2018 11:18:15 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 696 ms
+23 Sep, 2018 11:18:15 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+23 Sep, 2018 11:18:15 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+23 Sep, 2018 11:18:15 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\docs
+23 Sep, 2018 11:18:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\examples
+23 Sep, 2018 11:18:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\host-manager
+23 Sep, 2018 11:18:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\manager
+23 Sep, 2018 11:18:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\myapp
+23 Sep, 2018 11:18:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\myprj
+23 Sep, 2018 11:18:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\prj
+23 Sep, 2018 11:18:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\ROOT
+23 Sep, 2018 11:18:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\welcome
+23 Sep, 2018 11:18:17 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+23 Sep, 2018 11:18:17 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+23 Sep, 2018 11:18:17 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1781 ms
+23 Sep, 2018 11:20:45 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+23 Sep, 2018 11:20:45 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+23 Sep, 2018 11:20:45 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+23 Sep, 2018 11:20:45 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+23 Sep, 2018 11:20:45 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+23 Sep, 2018 11:20:45 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+23 Sep, 2018 11:20:45 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+23 Sep, 2018 11:20:45 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+23 Sep, 2018 11:20:53 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jre1.7.0\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Java\jdk1.7.0\bin;
+23 Sep, 2018 11:20:53 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+23 Sep, 2018 11:20:53 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+23 Sep, 2018 11:20:53 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 432 ms
+23 Sep, 2018 11:20:53 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+23 Sep, 2018 11:20:53 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+23 Sep, 2018 11:20:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\docs
+23 Sep, 2018 11:20:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\examples
+23 Sep, 2018 11:20:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\host-manager
+23 Sep, 2018 11:20:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\manager
+23 Sep, 2018 11:20:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\myapp
+23 Sep, 2018 11:20:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\myprj
+23 Sep, 2018 11:20:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\prj
+23 Sep, 2018 11:20:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\ROOT
+23 Sep, 2018 11:20:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\welcome
+23 Sep, 2018 11:20:54 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+23 Sep, 2018 11:20:54 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+23 Sep, 2018 11:20:54 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1249 ms
+23 Sep, 2018 12:03:30 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+23 Sep, 2018 12:03:31 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+23 Sep, 2018 12:03:32 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+23 Sep, 2018 12:03:32 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+23 Sep, 2018 12:03:35 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+23 Sep, 2018 12:03:35 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+23 Sep, 2018 12:03:35 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+23 Sep, 2018 12:03:35 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+23 Sep, 2018 7:25:12 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jre1.7.0\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Java\jdk1.7.0\bin;
+23 Sep, 2018 7:25:14 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+23 Sep, 2018 7:25:14 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+23 Sep, 2018 7:25:14 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2059 ms
+23 Sep, 2018 7:25:14 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+23 Sep, 2018 7:25:14 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+23 Sep, 2018 7:25:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\docs
+23 Sep, 2018 7:25:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\examples
+23 Sep, 2018 7:25:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\host-manager
+23 Sep, 2018 7:25:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\manager
+23 Sep, 2018 7:25:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\myapp
+23 Sep, 2018 7:25:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\myprj
+23 Sep, 2018 7:25:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\prj
+23 Sep, 2018 7:25:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\ROOT
+23 Sep, 2018 7:25:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\VSM3\Desktop\apache-tomcat-7.0.37-windows-x64\apache-tomcat-7.0.37\webapps\welcome
+23 Sep, 2018 7:25:17 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+23 Sep, 2018 7:25:17 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+23 Sep, 2018 7:25:17 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2778 ms
+23 Sep, 2018 7:26:01 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.

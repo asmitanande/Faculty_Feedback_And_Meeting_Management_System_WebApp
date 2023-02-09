@@ -1,0 +1,14 @@
+0:0:0:0:0:0:0:1 - - [23/Sep/2018:08:30:46 +0530] "GET / HTTP/1.1" 200 11444
+0:0:0:0:0:0:0:1 - - [23/Sep/2018:11:19:18 +0530] "GET / HTTP/1.1" 200 11444
+0:0:0:0:0:0:0:1 - - [23/Sep/2018:11:19:21 +0530] "GET /docs/security-howto.html HTTP/1.1" 200 32995
+0:0:0:0:0:0:0:1 - - [23/Sep/2018:11:19:29 +0530] "GET /examples/servlets HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [23/Sep/2018:11:19:31 +0530] "GET /examples/servlets/servlet/HelloWorldExample HTTP/1.1" 200 359
+0:0:0:0:0:0:0:1 - - [23/Sep/2018:11:19:34 +0530] "GET /examples/servlets/servlet/RequestInfoExample HTTP/1.1" 200 699
+0:0:0:0:0:0:0:1 - - [23/Sep/2018:11:19:38 +0530] "GET /examples/servlets/servlet/RequestHeaderExample HTTP/1.1" 200 1250
+0:0:0:0:0:0:0:1 - - [23/Sep/2018:11:19:48 +0530] "GET /examples/servlets/servlet/CookieExample HTTP/1.1" 200 892
+0:0:0:0:0:0:0:1 - - [23/Sep/2018:11:19:57 +0530] "POST /examples/servlets/servlet/CookieExample HTTP/1.1" 200 998
+0:0:0:0:0:0:0:1 - - [23/Sep/2018:11:20:06 +0530] "GET /examples/servlets/servlet/SessionExample HTTP/1.1" 200 1248
+0:0:0:0:0:0:0:1 - - [23/Sep/2018:11:20:10 +0530] "POST /examples/servlets/servlet/SessionExample;jsessionid=9B8E97E6D12104A95ADA9A45AEB30779 HTTP/1.1" 200 1138
+0:0:0:0:0:0:0:1 - - [23/Sep/2018:11:20:13 +0530] "POST /examples/servlets/servlet/SessionExample HTTP/1.1" 200 1147
+0:0:0:0:0:0:0:1 - - [23/Sep/2018:11:20:22 +0530] "GET /examples/servlets/servlet/SessionExample?dataname=eurkhfdkjsdsbj&datavalue=eixj33jfd HTTP/1.1" 200 1179
+192.168.43.185 - - [23/Sep/2018:11:52:30 +0530] "GET / HTTP/1.1" 200 11444
